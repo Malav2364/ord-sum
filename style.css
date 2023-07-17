@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container{
+    background-color: #aec1f8;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 600px;
+    width: 360px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.textbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 75%;
+    text-align: center;
+}
+
+.textbox p{
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+}
+
+.textbox h2{
+    font-weight: 800;
+    color:  hsl(223, 47%, 23%);
+}
+
+.amountbox{
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: #eeecec;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.amountbox a{
+    color: #0040ff;
+    padding-right: 1.5rem;
+}
+
+#paybutt{
+    width: 80%;
+    height: 9%;
+    border-radius: 10px;
+    background-color: #0040ff;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s linear 0s;
+}
+
+.cancel a{
+    text-decoration: none;
+    color: black;
+    font-size: larger !important;
+    font-weight: bold;
+}
+
+#paybutt:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.leftbox{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+    padding: 10px;
+    gap: 15px;
+}
+
+.leftbox img{
+    width: 30%;
+}
+
+.leftbox p{
+    font-size: 13px;
+}
+
+#p1{
+    color:  hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.price{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;
+}
+
+.rightbox{
+    display: flex;
+    align-items: center;
+}
+
+.rightbox a{
+    color: #0040ff;
+}
+
+.cancel a{
+    color: hsl(224, 23%, 55%);
+    font-weight:bold;
+}
+
+
